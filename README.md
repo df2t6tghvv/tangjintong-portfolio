@@ -99,3 +99,9 @@ tangjintong-portfolio/
 5. **联系我** — 合作 CTA + 电话 / 邮箱 / 坐标 + 页脚
 
 右侧圆点导航可一键翻页；作品区横向滚动到最右后继续滚动自动进入下一屏（最左端向上滚回上一屏）。
+
+## 部署与同步
+
+- 本站部署于 GitHub Pages：https://df2t6tghvv.github.io/tangjintong-portfolio/
+- 推送 main 分支即自动重新构建发布（.github/workflows/deploy.yml）
+- 改内容：编辑 src/data/content.js 或上传 public/works/ 图片后提交即可
