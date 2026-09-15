@@ -15,9 +15,9 @@ export const profile = {
   city: '中国 · 天津',
   school: '天津理工大学 · 视觉传达设计',
   period: '2023.09 — 2027.06',
-  portrait: 'portrait.png',
+  portrait: 'portrait.webp',
   /* IP 形象：填入 public/ip/ 下的形象图后，个人经历屏将以动态 IP 形象替代证件照展示（留空则用证件照） */
-  ipMascot: 'ip/ip-a.jpg',
+  ipMascot: 'ip/ip-a.webp',
   ipName: 'IP 形象',
   /* IP 形象动画视频：填入 public/videos/ 下的循环视频后，形象将以视频形式动起来（留空则用形象图 + 浮动动画） */
   ipMascotVideo: 'videos/ip-mascot.mp4',
@@ -87,7 +87,7 @@ export const workCategories = [
 export const works = [
   {
     id: 'yunling',
-    file: 'works/1e99c5af457fd1ce9050d7f7d64cf2ed.png',
+    file: 'works/1e99c5af457fd1ce9050d7f7d64cf2ed.webp',
     title: '雲岭春芽 · 高山茶品牌',
     category: 'brand',
     tag: '品牌设计 / 包装设计',
@@ -97,7 +97,7 @@ export const works = [
   },
   {
     id: 'cloudmeadow',
-    file: 'works/a5176082c28faa0dea4178bd9cd39a80.png',
+    file: 'works/a5176082c28faa0dea4178bd9cd39a80.webp',
     title: '云栖田野 · VI 品牌系统',
     category: 'brand',
     tag: '品牌 VI / 视觉识别',
@@ -107,7 +107,7 @@ export const works = [
   },
   {
     id: 'woof',
-    file: 'works/c4da8e1356dee17e7782206eb2712143.png',
+    file: 'works/c4da8e1356dee17e7782206eb2712143.webp',
     title: '汪汪伴侣 · 养宠 APP',
     category: 'ui',
     tag: 'UI 设计 / 产品视觉',
@@ -117,7 +117,7 @@ export const works = [
   },
   {
     id: 'beanmoment',
-    file: 'works/932453c7fdacf40beac90b60e2c23ed0.png',
+    file: 'works/932453c7fdacf40beac90b60e2c23ed0.webp',
     title: 'BeanMoment · 咖啡 APP',
     category: 'ui',
     tag: 'UI 设计 / 品牌视觉',
@@ -127,7 +127,7 @@ export const works = [
   },
   {
     id: 'health',
-    file: 'works/a13771107db582af5b4ddddeacebdda2.png',
+    file: 'works/a13771107db582af5b4ddddeacebdda2.webp',
     title: '悦健 · 健康生活 APP',
     category: 'ui',
     tag: 'UI 设计 / 视觉规范',
@@ -137,7 +137,7 @@ export const works = [
   },
   {
     id: 'green-travel',
-    file: 'works/海报1.png',
+    file: 'works/海报1.webp',
     title: '绿色出行 · 未来可期',
     category: 'poster',
     tag: '公益海报 / 视觉传达',
@@ -147,7 +147,7 @@ export const works = [
   },
   {
     id: 'city-breath',
-    file: 'works/海报2.png',
+    file: 'works/海报2.webp',
     title: '城市呼吸计划',
     category: 'poster',
     tag: '公益海报 / 世界环境日',
@@ -157,7 +157,7 @@ export const works = [
   },
   {
     id: 'guard-earth',
-    file: 'works/156ee149e67fbfd9cfb3b687e4f2c7dd.png',
+    file: 'works/156ee149e67fbfd9cfb3b687e4f2c7dd.webp',
     title: '守护地球 · 从现在开始',
     category: 'poster',
     tag: '公益海报 / 绿色未来',
@@ -167,7 +167,7 @@ export const works = [
   },
   {
     id: 'green-anime',
-    file: 'works/3b5aec7159419355309232414547ed79.png',
+    file: 'works/3b5aec7159419355309232414547ed79.webp',
     title: '绿色出行 · 动漫版',
     category: 'poster',
     tag: '公益海报 / 二次元',
@@ -177,7 +177,7 @@ export const works = [
   },
   {
     id: 'guofeng-fairy',
-    file: 'works/b27e9a9242b6c31edbcf9490b8673c90.png',
+    file: 'works/b27e9a9242b6c31edbcf9490b8673c90.webp',
     title: '国风 · 仙居山水',
     category: 'illustration',
     tag: '国风插画 / 奇幻',
@@ -187,7 +187,7 @@ export const works = [
   },
   {
     id: 'guofeng-whale',
-    file: 'works/e656f3328b6723da068966dc53836acb.png',
+    file: 'works/e656f3328b6723da068966dc53836acb.webp',
     title: '国风 · 鲸落海底',
     category: 'illustration',
     tag: '国风插画 / 海洋奇幻',
@@ -197,7 +197,7 @@ export const works = [
   },
   {
     id: 'pop-studio',
-    file: 'works/a05a76190573dc3865c481201f1f93a6.png',
+    file: 'works/a05a76190573dc3865c481201f1f93a6.webp',
     title: '波普 · 创意工坊',
     category: 'illustration',
     tag: '波普插画 / 潮流',
@@ -207,7 +207,7 @@ export const works = [
   },
   {
     id: 'pop-flight',
-    file: 'works/f429e66f5d31894efea3dc4833f208fc.png',
+    file: 'works/f429e66f5d31894efea3dc4833f208fc.webp',
     title: '波普 · 奇想飞行',
     category: 'illustration',
     tag: '波普插画 / 潮流',
@@ -217,7 +217,7 @@ export const works = [
   },
   {
     id: 'small-steps',
-    file: 'works/06cde7fb6085ae8058b2950c0e9e1abb.png',
+    file: 'works/06cde7fb6085ae8058b2950c0e9e1abb.webp',
     title: 'Small Steps Big Dreams',
     category: 'illustration',
     tag: '潮流插画 / 学习主题',
@@ -227,7 +227,7 @@ export const works = [
   },
   {
     id: 'dream-plan',
-    file: 'works/16f48b98e79072c80200254f5b874df0.png',
+    file: 'works/16f48b98e79072c80200254f5b874df0.webp',
     title: 'DREAM · PLAN · DO · REPEAT',
     category: 'illustration',
     tag: '潮流插画 / 励志',
